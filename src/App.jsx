@@ -100,8 +100,8 @@ function App() {
 
   return (
     <main className="">
-      <div className="max-w-[650px] my- mx-auto p-8 rounded-2xl bg-gray-950 shadow-2xl relative ">
-        <ol className="list-none p-0 my-4 flex justify-center items-center gap-8 m-0">
+      <div className="max-w-[400px] md:max-w-[650px] xl:max-w-[650px] mx-auto p-8 rounded-2xl bg-gray-950 shadow-2xl relative ">
+        <ol className="list-none p-0 my-4 flex justify-center items-center gap-4 md:gap-8 xl:gap-8 m-0">
           <Player
             initialName={PLAYERS.X}
             symbol="X"
